@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "target": "es6",
+    "typeRoots": ["node_modules/@types"],
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "./typings/globals/", "**/*.spec.ts"],
+  "include": ["**/*.ts"],
+  "compileOnSave": false
+}
