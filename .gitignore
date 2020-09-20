@@ -30,8 +30,6 @@ dist
 
 .history
 
-outputs/*
-
 *.js
 *.js.map
 *.d.ts
