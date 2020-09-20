@@ -105,7 +105,7 @@ function getParams(params: string[]): InputParams {
   let startCharIndex = 'A'.charCodeAt(0);
   const inputParams: InputParams = {};
 
-  // FIXME: limitation - the keys only would work till column Z.
+  // TODO: limitation - the keys only would work till column Z.
   // Handle for cases where column is AA, AB etc.
   return params.reduce((p, c) => {
     p[String.fromCharCode(startCharIndex++)] = Number(c);
