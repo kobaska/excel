@@ -1,4 +1,4 @@
-# excel
+# Excel
 
 Simple node excel like application
 
